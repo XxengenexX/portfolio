@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Binitin Golf & Country Club | Redesign Concept</title>
+    <!-- Tailwind Play CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css" />
+    <!-- Updated CSS Path -->
+    <link rel="stylesheet" href="../style.css" />
     <style>
       .font-serif { font-family: 'Playfair Display', Georgia, serif; }
       .font-sans { font-family: 'Inter', system-ui, sans-serif; }
@@ -22,24 +25,24 @@
         <a href="../index.html" class="underline hover:text-white transition">&larr; Back to Portfolio</a>
       </div>
 
-      <!-- Main Navigation -->
-    <!-- Main Navigation (Sticky Header) -->
-<nav class="bg-[#0b0f0e]/95 backdrop-blur-md border-b border-emerald-950/60 sticky top-0 z-50">
-  <div class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
-    <div class="flex items-center gap-3">
-      <span class="text-emerald-500 font-bold text-xl">⛳</span>
-      <span class="text-xl font-semibold tracking-wider text-white font-serif uppercase">Binitin Golf</span>
-    </div>
-    <div class="hidden md:flex space-x-8 text-xs uppercase tracking-widest text-slate-400 font-medium">
-      <a href="#amenities" class="hover:text-emerald-400 transition">Amenities</a>
-      <a href="#membership" class="hover:text-emerald-400 transition">Membership</a>
-      <a href="#book" class="hover:text-emerald-400 transition">Book Time</a>
-    </div>
-    <a href="#book" class="px-5 py-2.5 bg-emerald-500 text-slate-950 text-xs uppercase tracking-wider font-bold rounded-full hover:bg-emerald-400 transition shadow-lg shadow-emerald-500/10">
-      Book Tee Time
-    </a>
-  </div>
-</nav>
+      <!-- Main Navigation (Sticky Header) -->
+      <nav class="bg-[#0b0f0e]/95 backdrop-blur-md border-b border-emerald-950/60 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
+          <div class="flex items-center gap-3">
+            <span class="text-emerald-500 font-bold text-xl">⛳</span>
+            <span class="text-xl font-semibold tracking-wider text-white font-serif uppercase">Binitin Golf</span>
+          </div>
+          <div class="hidden md:flex space-x-8 text-xs uppercase tracking-widest text-slate-400 font-medium">
+            <a href="#amenities" class="hover:text-emerald-400 transition">Amenities</a>
+            <a href="#membership" class="hover:text-emerald-400 transition">Membership</a>
+            <a href="#book" class="hover:text-emerald-400 transition">Book Time</a>
+          </div>
+          <a href="#book" class="px-5 py-2.5 bg-emerald-500 text-slate-950 text-xs uppercase tracking-wider font-bold rounded-full hover:bg-emerald-400 transition shadow-lg shadow-emerald-500/10">
+            Book Tee Time
+          </a>
+        </div>
+      </nav>
+
       <!-- Hero Section -->
       <section class="max-w-5xl mx-auto px-6 pt-20 pb-12 text-center flex flex-col items-center">
         <span class="px-4 py-1 text-[10px] uppercase font-bold tracking-widest text-emerald-400 bg-emerald-950/60 border border-emerald-800/40 rounded-full mb-6">
@@ -53,11 +56,11 @@
         </p>
       </section>
 
-      <!-- Hero Banner Image Placeholder -->
+      <!-- Hero Banner Image -->
       <section class="max-w-7xl mx-auto px-6 pb-24">
         <div class="w-full h-[350px] sm:h-[500px] rounded-2xl bg-[#101715] border border-emerald-900/40 overflow-hidden relative shadow-2xl">
           <img 
-            src="/binitin-hero.jpg" 
+            src="../binitin-hero.jpg" 
             alt="Binitin Golf Course Overview" 
             class="w-full h-full object-cover"
           />
@@ -78,7 +81,7 @@
           <!-- Feature 1 -->
           <div class="bg-[#101715] border border-emerald-900/30 rounded-xl overflow-hidden group hover:border-emerald-500/40 transition">
             <div class="h-64 relative overflow-hidden bg-slate-900">
-              <img src="/feature-1.jpg" alt="18-Hole Masterpiece" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+              <img src="../feature-1.jpg" alt="18-Hole Masterpiece" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
               <div class="absolute inset-0 bg-gradient-to-t from-[#0b0f0e] via-[#0b0f0e]/30 to-transparent"></div>
               <div class="absolute bottom-4 left-4 right-4 text-white z-10">
                 <span class="text-[10px] uppercase tracking-widest text-emerald-400 font-semibold">18-Hole Championship</span>
@@ -91,7 +94,7 @@
           <!-- Feature 2 -->
           <div class="bg-[#101715] border border-emerald-900/30 rounded-xl overflow-hidden group hover:border-emerald-500/40 transition">
             <div class="h-64 relative overflow-hidden bg-slate-900">
-              <img src="/feature-2.jpg" alt="Pavilion Dining" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+              <img src="../feature-2.jpg" alt="Pavilion Dining" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
               <div class="absolute inset-0 bg-gradient-to-t from-[#0b0f0e] via-[#0b0f0e]/30 to-transparent"></div>
               <div class="absolute bottom-4 left-4 right-4 text-white z-10">
                 <span class="text-[10px] uppercase tracking-widest text-emerald-400 font-semibold">Dining & Social</span>
@@ -104,7 +107,7 @@
           <!-- Feature 3 -->
           <div class="bg-[#101715] border border-emerald-900/30 rounded-xl overflow-hidden group hover:border-emerald-500/40 transition">
             <div class="h-64 relative overflow-hidden bg-slate-900">
-              <img src="/feature-3.jpg" alt="Performance Center" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+              <img src="../feature-3.jpg" alt="Performance Center" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
               <div class="absolute inset-0 bg-gradient-to-t from-[#0b0f0e] via-[#0b0f0e]/30 to-transparent"></div>
               <div class="absolute bottom-4 left-4 right-4 text-white z-10">
                 <span class="text-[10px] uppercase tracking-widest text-emerald-400 font-semibold">Practice Facility</span>
@@ -117,7 +120,7 @@
           <!-- Feature 4 -->
           <div class="bg-[#101715] border border-emerald-900/30 rounded-xl overflow-hidden group hover:border-emerald-500/40 transition">
             <div class="h-64 relative overflow-hidden bg-slate-900">
-              <img src="/feature-4.jpg" alt="Sanctuary Wellness" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+              <img src="../feature-4.jpg" alt="Sanctuary Wellness" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
               <div class="absolute inset-0 bg-gradient-to-t from-[#0b0f0e] via-[#0b0f0e]/30 to-transparent"></div>
               <div class="absolute bottom-4 left-4 right-4 text-white z-10">
                 <span class="text-[10px] uppercase tracking-widest text-emerald-400 font-semibold">Wellness & Relaxation</span>
