@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css" />
+    <!-- Path updated to point to root style.css -->
+    <link rel="stylesheet" href="../style.css" />
     <style>
       .font-display { font-family: 'Plus Jakarta Sans', sans-serif; }
       .font-sans { font-family: 'Inter', sans-serif; }
@@ -103,10 +104,10 @@
           <div class="lg:col-span-7 flex flex-col items-center lg:items-end">
             <div class="w-full h-[400px] sm:h-[480px] bg-slate-900 rounded-2xl overflow-hidden relative shadow-2xl ring-1 ring-white/20 group">
               
-              <!-- Foreground Slide Image -->
+              <!-- Foreground Slide Image (Path updated to ../agri-hero.jpg) -->
               <img 
                 id="hero-main-img"
-                src="/agri-hero.jpg" 
+                src="../agri-hero.jpg" 
                 alt="AgriNegros Hero Slide" 
                 class="w-full h-full object-cover object-center transition-all duration-700 group-hover:scale-105"
               />
@@ -201,15 +202,14 @@
           </p>
         </div>
 
-        <!-- 6 Cards Grid -->
+        <!-- 6 Cards Grid (Paths updated with ../) -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
           <!-- Card 1 -->
           <div class="relative bg-white rounded-2xl border border-slate-200/80 overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
             <div class="h-52 overflow-hidden bg-slate-100">
-              <img src="/agri-card-1.jpg" alt="Poultry Farming" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+              <img src="../agri-card-1.jpg" alt="Poultry Farming" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
             </div>
-            <!-- Center alignment fixed using inset-x-0 mx-auto -->
             <div class="w-10 h-10 bg-emerald-600 text-white font-bold text-xs rounded-xl flex items-center justify-center absolute top-[208px] inset-x-0 mx-auto -translate-y-1/2 border-4 border-white shadow-md z-10">01</div>
             <div class="p-6 pt-8 text-center">
               <h3 class="font-display font-bold text-lg text-slate-900">Poultry Farming</h3>
@@ -220,7 +220,7 @@
           <!-- Card 2 -->
           <div class="relative bg-white rounded-2xl border border-slate-200/80 overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
             <div class="h-52 overflow-hidden bg-slate-100">
-              <img src="/agri-card-2.jpg" alt="Fish Farming" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+              <img src="../agri-card-2.jpg" alt="Fish Farming" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
             </div>
             <div class="w-10 h-10 bg-emerald-600 text-white font-bold text-xs rounded-xl flex items-center justify-center absolute top-[208px] inset-x-0 mx-auto -translate-y-1/2 border-4 border-white shadow-md z-10">02</div>
             <div class="p-6 pt-8 text-center">
@@ -232,7 +232,7 @@
           <!-- Card 3 -->
           <div class="relative bg-white rounded-2xl border border-slate-200/80 overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
             <div class="h-52 overflow-hidden bg-slate-100">
-              <img src="/agri-card-3.jpg" alt="Crop Production" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+              <img src="../agri-card-3.jpg" alt="Crop Production" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
             </div>
             <div class="w-10 h-10 bg-emerald-600 text-white font-bold text-xs rounded-xl flex items-center justify-center absolute top-[208px] inset-x-0 mx-auto -translate-y-1/2 border-4 border-white shadow-md z-10">03</div>
             <div class="p-6 pt-8 text-center">
@@ -244,7 +244,7 @@
           <!-- Card 4 -->
           <div class="relative bg-white rounded-2xl border border-slate-200/80 overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
             <div class="h-52 overflow-hidden bg-slate-100">
-              <img src="/agri-card-4.jpg" alt="Livestock Care" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+              <img src="../agri-card-4.jpg" alt="Livestock Care" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
             </div>
             <div class="w-10 h-10 bg-emerald-600 text-white font-bold text-xs rounded-xl flex items-center justify-center absolute top-[208px] inset-x-0 mx-auto -translate-y-1/2 border-4 border-white shadow-md z-10">04</div>
             <div class="p-6 pt-8 text-center">
@@ -256,7 +256,7 @@
           <!-- Card 5 -->
           <div class="relative bg-white rounded-2xl border border-slate-200/80 overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
             <div class="h-52 overflow-hidden bg-slate-100">
-              <img src="/agri-card-5.jpg" alt="Organic Products" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+              <img src="../agri-card-5.jpg" alt="Organic Products" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
             </div>
             <div class="w-10 h-10 bg-emerald-600 text-white font-bold text-xs rounded-xl flex items-center justify-center absolute top-[208px] inset-x-0 mx-auto -translate-y-1/2 border-4 border-white shadow-md z-10">05</div>
             <div class="p-6 pt-8 text-center">
@@ -268,7 +268,7 @@
           <!-- Card 6 -->
           <div class="relative bg-white rounded-2xl border border-slate-200/80 overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
             <div class="h-52 overflow-hidden bg-slate-100">
-              <img src="/agri-card-6.jpg" alt="Farm Equipment" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+              <img src="../agri-card-6.jpg" alt="Farm Equipment" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
             </div>
             <div class="w-10 h-10 bg-emerald-600 text-white font-bold text-xs rounded-xl flex items-center justify-center absolute top-[208px] inset-x-0 mx-auto -translate-y-1/2 border-4 border-white shadow-md z-10">06</div>
             <div class="p-6 pt-8 text-center">
@@ -395,32 +395,32 @@
       </div>
     </footer>
 
-    <!-- Slideshow JavaScript -->
+    <!-- Slideshow JavaScript (Image paths updated with ../) -->
     <script>
       const slides = [
         {
           badge: "Featured Overview",
           title: "Sustainable Farm Ecosystems",
           desc: "Modern farming and precision land management engineered across Negros Occidental.",
-          image: "/agri-hero.jpg"
+          image: "../agri-hero.jpg"
         },
         {
           badge: "Precision Crops",
           title: "Smart Crop & Soil Telemetry",
           desc: "Integrating soil sensors and automated irrigation for high-yield sugarcane and rice harvests.",
-          image: "/agri-card-3.jpg"
+          image: "../agri-card-3.jpg"
         },
         {
           badge: "Eco Aquaculture",
           title: "Clean Water Fish Farming",
           desc: "Pioneering eco-friendly aquatic monitoring techniques for tilapia and regional fisheries.",
-          image: "/agri-card-2.jpg"
+          image: "../agri-card-2.jpg"
         },
         {
           badge: "Agritech Equipment",
           title: "Next-Gen Machinery & IoT",
           desc: "Utilizing modern machinery and field telemetry to maximize agricultural efficiency.",
-          image: "/agri-card-6.jpg"
+          image: "../agri-card-6.jpg"
         }
       ];
 
