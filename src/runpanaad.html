@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RunPanaad | Athletic Track Apparel & Gear</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      .font-display { font-family: 'Oswald', sans-serif; }
+      .font-sans { font-family: 'Inter', sans-serif; }
+    </style>
+  </head>
+  <body class="bg-[#f2f3f5] text-slate-900 font-sans min-h-screen flex flex-col justify-between selection:bg-red-600 selection:text-white">
+
+    <div>
+      <!-- Top Announcement Bar -->
+      <div class="bg-[#0f1115] text-white text-[11px] py-2 px-6 flex justify-between items-center border-b border-slate-800">
+        <span class="text-slate-300">⚡ <strong>UI/UX Case Study:</strong> RunPanaad Athletic Performance Brand Redesign</span>
+        <div class="flex items-center gap-6">
+          <a href="../index.html" class="underline hover:text-red-500 transition">&larr; Back to Portfolio</a>
+        </div>
+      </div>
+
+      <!-- Main Navigation -->
+    <!-- Main Navigation (Sticky Header) -->
+<nav class="bg-[#12161c] text-white px-8 py-5 border-b border-slate-800 sticky top-0 z-50 shadow-md">
+  <div class="max-w-7xl mx-auto flex justify-between items-center">
+    <div class="flex items-center gap-3">
+      <span class="text-2xl font-black font-display tracking-tight text-white flex items-center gap-2">
+        <span class="w-7 h-7 bg-red-600 rounded flex items-center justify-center text-xs">⚡</span>
+        RUNPANAAD
+      </span>
+    </div>
+
+    <div class="hidden md:flex space-x-10 text-xs font-semibold tracking-wider uppercase text-slate-300">
+      <a href="#hero" class="hover:text-red-500 transition">About Us</a>
+      <a href="#collections" class="hover:text-red-500 transition">Collection</a>
+      <a href="#features" class="hover:text-red-500 transition">Features</a>
+      <a href="#contact" class="hover:text-red-500 transition">Contact Us</a>
+    </div>
+
+    <div class="flex items-center gap-4 text-xs font-bold">
+      <a href="#collections" class="px-5 py-2.5 bg-red-600 text-white uppercase tracking-wider font-display font-bold hover:bg-red-700 transition">
+        Explore Gear
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <!-- Hero Section -->
+      <!-- Full Background Hero Section -->
+<!-- Full Video Background Hero Section -->
+<section id="hero" class="relative overflow-hidden min-h-[550px] sm:min-h-[650px] flex items-center border-b border-slate-800 bg-slate-950">
+  
+  <!-- HTML5 Background Video (Silent, Auto-Looping) -->
+  <video 
+    autoplay 
+    loop 
+    muted 
+    playsinline 
+    class="absolute inset-0 w-full h-full object-cover object-center pointer-events-none"
+  >
+    <source src="/hero-video.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Dark Gradient Overlay (Ensures text readability over motion) -->
+  <div class="absolute inset-0 bg-gradient-to-r from-[#0b0e13]/90 via-[#0b0e13]/75 to-black/30 z-10"></div>
+
+  <!-- Hero Text Content -->
+  <div class="max-w-7xl mx-auto px-8 w-full relative z-20 py-16">
+    <div class="max-w-2xl">
+      <span class="text-xs uppercase font-bold tracking-widest text-slate-300 font-display">Aspire to More</span>
+      <h1 class="text-5xl sm:text-7xl font-display font-black text-white uppercase leading-[0.95] tracking-tight mt-2">
+        New Collections <br />By Top <span class="text-red-600">Brands.</span>
+      </h1>
+      <p class="text-slate-300 text-sm sm:text-base mt-6 max-w-lg font-normal leading-relaxed">
+        Engineered track apparel and precision segment gear built for speed, endurance, and everyday athletic performance on the oval.
+      </p>
+      <div class="mt-8">
+        <a href="#collections" class="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-display font-bold uppercase text-sm px-8 py-3.5 transition shadow-lg shadow-red-600/30">
+          Shop Now &rarr;
+        </a>
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- 3-Card Category Section with Full Background Image -->
+<section id="collections" class="relative overflow-hidden py-20 border-b border-slate-800 bg-slate-950">
+  
+  <!-- Section Background Image -->
+  <img 
+    src="/runpanaad-hero1.jpg" 
+    alt="Collections Background" 
+    class="absolute inset-0 w-full h-full object-cover object-center pointer-events-none"
+  />
+
+  <!-- Dark Overlay Gradient -->
+  <div class="absolute inset-0 bg-slate-950/85 backdrop-blur-sm z-10"></div>
+
+  <!-- Cards Container -->
+  <div class="max-w-7xl mx-auto px-8 relative z-20">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+      <!-- Card 1 -->
+      <div class="bg-slate-900/80 rounded-xl relative overflow-hidden group hover:shadow-2xl transition flex flex-col justify-between min-h-[320px] border border-slate-800 backdrop-blur-md">
+        <img 
+          src="/runpanaad-card1.jpg" 
+          alt="New Arrivals" 
+          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500 pointer-events-none" 
+        />
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-slate-950/20 z-10"></div>
+        <div class="relative z-20 p-8 flex flex-col justify-between h-full">
+          <div class="mt-auto">
+            <h3 class="text-3xl font-display font-black uppercase text-white tracking-wide leading-none">
+              New <span class="text-red-500">Arrivals.</span>
+            </h3>
+            <a href="#" class="text-xs font-bold text-slate-200 uppercase tracking-widest mt-4 inline-flex items-center gap-1 group-hover:text-red-500 transition">
+              Shop Collection &rarr;
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-slate-900/80 rounded-xl relative overflow-hidden group hover:shadow-2xl transition flex flex-col justify-between min-h-[320px] border border-slate-800 backdrop-blur-md">
+        <img 
+          src="/runpanaad-card2.jpg" 
+          alt="Trainers" 
+          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500 pointer-events-none" 
+        />
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-slate-950/20 z-10"></div>
+        <div class="relative z-20 p-8 flex flex-col justify-between h-full">
+          <div class="mt-auto">
+            <h3 class="text-3xl font-display font-black uppercase text-white tracking-wide leading-none">
+              Trainers<span class="text-red-500">.</span>
+            </h3>
+            <a href="#" class="text-xs font-bold text-slate-200 uppercase tracking-widest mt-4 inline-flex items-center gap-1 group-hover:text-red-500 transition">
+              Shop Collection &rarr;
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-slate-900/80 rounded-xl relative overflow-hidden group hover:shadow-2xl transition flex flex-col justify-between min-h-[320px] border border-slate-800 backdrop-blur-md">
+        <img 
+          src="/runpanaad-card3.jpg" 
+          alt="Hot Sale" 
+          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500 pointer-events-none" 
+        />
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-slate-950/20 z-10"></div>
+        <div class="relative z-20 p-8 flex flex-col justify-between h-full">
+          <div class="mt-auto">
+            <h3 class="text-3xl font-display font-black uppercase text-white tracking-wide leading-none">
+              Hot <span class="text-red-500">Sale.</span>
+            </h3>
+            <a href="#" class="text-xs font-bold text-slate-200 uppercase tracking-widest mt-4 inline-flex items-center gap-1 group-hover:text-red-500 transition">
+              Shop Collection &rarr;
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+      <!-- Why Choose Us / Features Grid -->
+      <!-- Why Choose Us / Features Grid with Background Image -->
+<section id="features" class="relative overflow-hidden py-20 border-t border-slate-800 bg-slate-950">
+  
+  <!-- Full Background Image -->
+  <img 
+    src="/runpanaad-hero.jpg" 
+    alt="RunPanaad Features Background" 
+    class="absolute inset-0 w-full h-full object-cover object-center pointer-events-none"
+  />
+
+  <!-- Dark Overlay Gradient -->
+  <div class="absolute inset-0 bg-slate-950/85 backdrop-blur-sm z-10"></div>
+
+  <div class="max-w-7xl mx-auto px-8 relative z-20">
+    <!-- Header -->
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-display font-black uppercase text-white tracking-tight">
+        Why Choose <span class="text-red-600">Us.</span>
+      </h2>
+      <p class="text-slate-400 text-xs uppercase tracking-widest mt-2 font-semibold">Keep fit, follow a healthy lifestyle with us!</p>
+    </div>
+
+    <!-- Cards Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      
+      <!-- Feature 1 -->
+      <div class="bg-slate-900/80 border border-slate-800 p-8 rounded-xl text-center backdrop-blur-md shadow-xl hover:border-red-600/50 transition">
+        <div class="text-red-500 text-3xl mb-4">🚚</div>
+        <h4 class="font-display font-bold uppercase text-white text-sm tracking-wider">Free Shipping Over $90</h4>
+        <p class="text-slate-400 text-xs mt-2 leading-relaxed">Get advantage of our free worldwide shipping on all orders over $90.</p>
+      </div>
+
+      <!-- Feature 2 -->
+      <div class="bg-slate-900/80 border border-slate-800 p-8 rounded-xl text-center backdrop-blur-md shadow-xl hover:border-red-600/50 transition">
+        <div class="text-red-500 text-3xl mb-4">🔄</div>
+        <h4 class="font-display font-bold uppercase text-white text-sm tracking-wider">Easy 30-Day Return</h4>
+        <p class="text-slate-400 text-xs mt-2 leading-relaxed">If the item does not suit you, please send it back to us within 30 days.</p>
+      </div>
+
+      <!-- Feature 3 -->
+      <div class="bg-slate-900/80 border border-slate-800 p-8 rounded-xl text-center backdrop-blur-md shadow-xl hover:border-red-600/50 transition">
+        <div class="text-red-500 text-3xl mb-4">🌱</div>
+        <h4 class="font-display font-bold uppercase text-white text-sm tracking-wider">Eco Materials</h4>
+        <p class="text-slate-400 text-xs mt-2 leading-relaxed">All items are made with at least 30% recycled materials and zero virgin polyester.</p>
+      </div>
+
+      <!-- Feature 4 -->
+      <div class="bg-slate-900/80 border border-slate-800 p-8 rounded-xl text-center backdrop-blur-md shadow-xl hover:border-red-600/50 transition">
+        <div class="text-red-500 text-3xl mb-4">💳</div>
+        <h4 class="font-display font-bold uppercase text-white text-sm tracking-wider">20 Payment Methods</h4>
+        <p class="text-slate-400 text-xs mt-2 leading-relaxed">Pay for your orders with credit cards, PayPal, Alipay, and other payment methods.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+    </div>
+
+    <!-- Footer -->
+    <!-- Footer Section with Hyperlinks -->
+<footer id="contact" class="bg-[#0f1115] text-slate-400 border-t border-slate-800 pt-16 pb-12">
+  <div class="max-w-7xl mx-auto px-8 grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-slate-800/80">
+    
+    <!-- Brand Info -->
+    <div class="space-y-4">
+      <div class="flex items-center gap-2">
+        <span class="w-7 h-7 bg-red-600 rounded flex items-center justify-center text-xs text-white">⚡</span>
+        <span class="text-2xl font-black font-display tracking-tight text-white">RUNPANAAD</span>
+      </div>
+      <p class="text-xs text-slate-400 leading-relaxed">
+        High-performance track apparel and precision running gear designed for athletes on and off the oval.
+      </p>
+    </div>
+
+    <!-- Quick Navigation Links -->
+    <div>
+      <h4 class="font-display font-bold text-white uppercase text-sm tracking-wider mb-4">Navigation</h4>
+      <ul class="space-y-2.5 text-xs">
+        <li><a href="#hero" class="hover:text-red-500 transition">About Us</a></li>
+        <li><a href="#collections" class="hover:text-red-500 transition">Collection</a></li>
+        <li><a href="#features" class="hover:text-red-500 transition">Features</a></li>
+        <li><a href="../index.html" class="hover:text-red-500 transition font-semibold text-slate-300">&larr; Main Portfolio</a></li>
+      </ul>
+    </div>
+
+    <!-- Collection Links -->
+    <div>
+      <h4 class="font-display font-bold text-white uppercase text-sm tracking-wider mb-4">Collections</h4>
+      <ul class="space-y-2.5 text-xs">
+        <li><a href="#collections" class="hover:text-red-500 transition">New Arrivals</a></li>
+        <li><a href="#collections" class="hover:text-red-500 transition">Track Trainers</a></li>
+        <li><a href="#collections" class="hover:text-red-500 transition">Hot Sale Gear</a></li>
+        <li><a href="#collections" class="hover:text-red-500 transition">Eco Equipment</a></li>
+      </ul>
+    </div>
+
+    <!-- Connect & Social Links -->
+    <div>
+      <h4 class="font-display font-bold text-white uppercase text-sm tracking-wider mb-4">Connect</h4>
+      <ul class="space-y-2.5 text-xs">
+        <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="hover:text-red-500 transition">Instagram &rarr;</a></li>
+        <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="hover:text-red-500 transition">Facebook &rarr;</a></li>
+        <li><a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="hover:text-red-500 transition">YouTube &rarr;</a></li>
+        <li><a href="mailto:contact@runpanaad.com" class="hover:text-red-500 transition">contact@runpanaad.com</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="max-w-7xl mx-auto px-8 pt-8 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500 gap-4">
+    <p>&copy; 2026 RunPanaad Athletic Apparel. UI/UX Case Study.</p>
+    <div class="flex items-center gap-6">
+      <a href="../index.html" class="hover:text-red-500 transition font-medium">&larr; Return to Portfolio Overview</a>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Binitin Golf & Country Club | Redesign Concept</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      .font-serif { font-family: 'Playfair Display', Georgia, serif; }
+      .font-sans { font-family: 'Inter', system-ui, sans-serif; }
+    </style>
+  </head>
+  <body class="bg-[#0b0f0e] text-slate-200 min-h-screen font-sans selection:bg-emerald-500 selection:text-slate-950 flex flex-col justify-between">
+
+    <div>
+      <!-- Case Study Banner Header -->
+      <div class="bg-[#041d15] border-b border-emerald-900/40 text-emerald-300 text-xs py-2 px-6 flex justify-between items-center">
+        <span>🎨 <strong>UI/UX Case Study:</strong> Redesign Concept for Binitin Golf & Country Club</span>
+        <a href="../index.html" class="underline hover:text-white transition">&larr; Back to Portfolio</a>
+      </div>
+
+      <!-- Main Navigation -->
+    <!-- Main Navigation (Sticky Header) -->
+<nav class="bg-[#0b0f0e]/95 backdrop-blur-md border-b border-emerald-950/60 sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
+    <div class="flex items-center gap-3">
+      <span class="text-emerald-500 font-bold text-xl">⛳</span>
+      <span class="text-xl font-semibold tracking-wider text-white font-serif uppercase">Binitin Golf</span>
+    </div>
+    <div class="hidden md:flex space-x-8 text-xs uppercase tracking-widest text-slate-400 font-medium">
+      <a href="#amenities" class="hover:text-emerald-400 transition">Amenities</a>
+      <a href="#membership" class="hover:text-emerald-400 transition">Membership</a>
+      <a href="#book" class="hover:text-emerald-400 transition">Book Time</a>
+    </div>
+    <a href="#book" class="px-5 py-2.5 bg-emerald-500 text-slate-950 text-xs uppercase tracking-wider font-bold rounded-full hover:bg-emerald-400 transition shadow-lg shadow-emerald-500/10">
+      Book Tee Time
+    </a>
+  </div>
+</nav>
+      <!-- Hero Section -->
+      <section class="max-w-5xl mx-auto px-6 pt-20 pb-12 text-center flex flex-col items-center">
+        <span class="px-4 py-1 text-[10px] uppercase font-bold tracking-widest text-emerald-400 bg-emerald-950/60 border border-emerald-800/40 rounded-full mb-6">
+          Championship Golf Club
+        </span>
+        <h1 class="text-5xl sm:text-7xl font-serif text-white leading-tight tracking-normal max-w-4xl">
+          Where Nature Carves the Ultimate Game
+        </h1>
+        <p class="text-slate-400 text-base sm:text-lg mt-6 max-w-2xl font-light leading-relaxed">
+          Immerse yourself in a legendary 18-hole championship layout winding through pristine pine forests, shimmering emerald water features, and world-class organic hospitality.
+        </p>
+      </section>
+
+      <!-- Hero Banner Image Placeholder -->
+      <section class="max-w-7xl mx-auto px-6 pb-24">
+        <div class="w-full h-[350px] sm:h-[500px] rounded-2xl bg-[#101715] border border-emerald-900/40 overflow-hidden relative shadow-2xl">
+          <img 
+            src="/binitin-hero.jpg" 
+            alt="Binitin Golf Course Overview" 
+            class="w-full h-full object-cover"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-[#0b0f0e] via-transparent to-transparent"></div>
+        </div>
+      </section>
+
+      <!-- Course Features Grid Section -->
+      <section id="amenities" class="max-w-7xl mx-auto px-6 py-20 border-t border-emerald-950/60">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-16">
+          <div>
+            <span class="text-xs uppercase font-bold tracking-widest text-emerald-400">Premier Facilities</span>
+            <h2 class="text-3xl sm:text-4xl font-serif text-white mt-2">Championship Amenities Built for Discerning Players</h2>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Feature 1 -->
+          <div class="bg-[#101715] border border-emerald-900/30 rounded-xl overflow-hidden group hover:border-emerald-500/40 transition">
+            <div class="h-64 relative overflow-hidden bg-slate-900">
+              <img src="/feature-1.jpg" alt="18-Hole Masterpiece" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+              <div class="absolute inset-0 bg-gradient-to-t from-[#0b0f0e] via-[#0b0f0e]/30 to-transparent"></div>
+              <div class="absolute bottom-4 left-4 right-4 text-white z-10">
+                <span class="text-[10px] uppercase tracking-widest text-emerald-400 font-semibold">18-Hole Championship</span>
+                <h3 class="text-xl font-serif font-semibold mt-1">The 18-Hole Masterpiece</h3>
+                <p class="text-xs text-slate-300 mt-1">Architecturally blended fairway corridors winding around native topography.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="bg-[#101715] border border-emerald-900/30 rounded-xl overflow-hidden group hover:border-emerald-500/40 transition">
+            <div class="h-64 relative overflow-hidden bg-slate-900">
+              <img src="/feature-2.jpg" alt="Pavilion Dining" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+              <div class="absolute inset-0 bg-gradient-to-t from-[#0b0f0e] via-[#0b0f0e]/30 to-transparent"></div>
+              <div class="absolute bottom-4 left-4 right-4 text-white z-10">
+                <span class="text-[10px] uppercase tracking-widest text-emerald-400 font-semibold">Dining & Social</span>
+                <h3 class="text-xl font-serif font-semibold mt-1">The Pavilion Dining</h3>
+                <p class="text-xs text-slate-300 mt-1">Farm-to-table Hiligaynon specialty culinary offerings and premium wines.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Feature 3 -->
+          <div class="bg-[#101715] border border-emerald-900/30 rounded-xl overflow-hidden group hover:border-emerald-500/40 transition">
+            <div class="h-64 relative overflow-hidden bg-slate-900">
+              <img src="/feature-3.jpg" alt="Performance Center" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+              <div class="absolute inset-0 bg-gradient-to-t from-[#0b0f0e] via-[#0b0f0e]/30 to-transparent"></div>
+              <div class="absolute bottom-4 left-4 right-4 text-white z-10">
+                <span class="text-[10px] uppercase tracking-widest text-emerald-400 font-semibold">Practice Facility</span>
+                <h3 class="text-xl font-serif font-semibold mt-1">Golf Performance Center</h3>
+                <p class="text-xs text-slate-300 mt-1">Optimize your swing with trackman radar launch diagnostics and certified instruction.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Feature 4 -->
+          <div class="bg-[#101715] border border-emerald-900/30 rounded-xl overflow-hidden group hover:border-emerald-500/40 transition">
+            <div class="h-64 relative overflow-hidden bg-slate-900">
+              <img src="/feature-4.jpg" alt="Sanctuary Wellness" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+              <div class="absolute inset-0 bg-gradient-to-t from-[#0b0f0e] via-[#0b0f0e]/30 to-transparent"></div>
+              <div class="absolute bottom-4 left-4 right-4 text-white z-10">
+                <span class="text-[10px] uppercase tracking-widest text-emerald-400 font-semibold">Wellness & Relaxation</span>
+                <h3 class="text-xl font-serif font-semibold mt-1">The Sanctuary Wellness</h3>
+                <p class="text-xs text-slate-300 mt-1">Locker lounges, therapeutic mineral pools, and holistic recovery treatments.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Membership & Rates Section -->
+      <section id="membership" class="max-w-7xl mx-auto px-6 py-24 border-t border-emerald-950/60">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl sm:text-5xl font-serif text-white">Uncompromising Club Memberships</h2>
+          <p class="text-slate-400 text-sm mt-3 font-light">Exclusive access to our private community. Select the tier designed to elevate your athletic lifestyle.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+          <div class="bg-[#101715] border border-emerald-900/30 p-8 rounded-2xl flex flex-col justify-between">
+            <div>
+              <h3 class="text-lg font-serif text-white">Club Player</h3>
+              <div class="text-3xl font-serif font-bold text-white mt-4">PHP 3,500 <span class="text-xs font-sans text-slate-400 font-normal">/ day pass</span></div>
+              <p class="text-xs text-slate-400 mt-4 leading-relaxed">Ideal for visiting golfers seeking full access to the course and driving range facilities.</p>
+            </div>
+            <button class="mt-8 w-full py-3 bg-emerald-950/80 border border-emerald-800/40 text-emerald-300 text-xs uppercase tracking-wider font-semibold rounded-lg hover:bg-emerald-900 transition">
+              Book Guest Time
+            </button>
+          </div>
+
+          <div class="bg-[#101715] border-2 border-emerald-500 p-8 rounded-2xl flex flex-col justify-between relative shadow-2xl shadow-emerald-500/10">
+            <span class="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-0.5 text-[10px] uppercase tracking-widest font-bold bg-emerald-500 text-slate-950 rounded-full">
+              Recommended
+            </span>
+            <div>
+              <h3 class="text-lg font-serif text-white">The Country Club</h3>
+              <div class="text-3xl font-serif font-bold text-emerald-400 mt-4">PHP 120,000 <span class="text-xs font-sans text-slate-400 font-normal">/ annual</span></div>
+              <p class="text-xs text-slate-400 mt-4 leading-relaxed">Full privileges for individual players, priority tee times, clubhouse dining, and tournament entries.</p>
+            </div>
+            <button class="mt-8 w-full py-3 bg-emerald-500 text-slate-950 text-xs uppercase tracking-wider font-bold rounded-lg hover:bg-emerald-400 transition">
+              Apply For Membership
+            </button>
+          </div>
+
+          <div class="bg-[#101715] border border-emerald-900/30 p-8 rounded-2xl flex flex-col justify-between">
+            <div>
+              <h3 class="text-lg font-serif text-white">Signature Legend</h3>
+              <div class="text-3xl font-serif font-bold text-white mt-4">PHP 250,000 <span class="text-xs font-sans text-slate-400 font-normal">/ annual</span></div>
+              <p class="text-xs text-slate-400 mt-4 leading-relaxed">All-inclusive access with guest privileges, dedicated caddie service, and private dining room reservations.</p>
+            </div>
+            <button class="mt-8 w-full py-3 bg-emerald-950/80 border border-emerald-800/40 text-emerald-300 text-xs uppercase tracking-wider font-semibold rounded-lg hover:bg-emerald-900 transition">
+              Inquire For Corporate
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Booking Form Section -->
+      <section id="book" class="max-w-3xl mx-auto px-6 py-20 border-t border-emerald-950/60">
+        <div class="bg-[#101715] border border-emerald-900/40 p-8 sm:p-12 rounded-2xl shadow-2xl">
+          <h2 class="text-2xl sm:text-3xl font-serif text-white text-center">Reserve Your Tee Time</h2>
+          <p class="text-xs text-slate-400 text-center mt-2 uppercase tracking-wider">Instant confirmation for guests and club members</p>
+
+          <form class="mt-8 space-y-5" onsubmit="event.preventDefault(); alert('Tee time booking submitted!');">
+            <div>
+              <label class="block text-[10px] font-bold uppercase tracking-widest text-slate-300 mb-2">Name</label>
+              <input type="text" placeholder="Enter your full name" class="w-full bg-[#0b0f0e] border border-emerald-900/40 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-emerald-500 transition" />
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-[10px] font-bold uppercase tracking-widest text-slate-300 mb-2">Preferred Date</label>
+                <input type="date" class="w-full bg-[#0b0f0e] border border-emerald-900/40 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-emerald-500 transition" />
+              </div>
+              <div>
+                <label class="block text-[10px] font-bold uppercase tracking-widest text-slate-300 mb-2">Player Count</label>
+                <select class="w-full bg-[#0b0f0e] border border-emerald-900/40 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-emerald-500 transition">
+                  <option>1 Player</option>
+                  <option selected>2 Players</option>
+                  <option>3 Players</option>
+                  <option>4 Players (Foursome)</option>
+                </select>
+              </div>
+            </div>
+            <button type="submit" class="w-full py-4 bg-emerald-500 text-slate-950 text-xs font-bold uppercase tracking-widest rounded-lg hover:bg-emerald-400 transition shadow-lg shadow-emerald-500/10">
+              Confirm Booking Request
+            </button>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="border-t border-emerald-950/80 bg-[#070a09] mt-20">
+      <div class="max-w-7xl mx-auto px-6 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+          
+          <!-- Brand Column -->
+          <div class="md:col-span-2">
+            <div class="flex items-center gap-3">
+              <span class="text-emerald-500 font-bold text-xl">⛳</span>
+              <span class="text-lg font-semibold tracking-wider text-white font-serif uppercase">Binitin Golf & Country Club</span>
+            </div>
+            <p class="text-xs text-slate-400 mt-4 max-w-sm font-light leading-relaxed">
+              Murcia, Negros Occidental, Philippines. A premier 18-hole championship facility designed for competitive play and athletic relaxation.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div>
+            <h4 class="text-xs font-bold uppercase tracking-widest text-emerald-400 mb-4">Navigation</h4>
+            <ul class="space-y-2 text-xs text-slate-400">
+              <li><a href="#amenities" class="hover:text-white transition">Amenities</a></li>
+              <li><a href="#membership" class="hover:text-white transition">Membership Tiers</a></li>
+              <li><a href="#book" class="hover:text-white transition">Book Tee Time</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact / Location -->
+          <div>
+            <h4 class="text-xs font-bold uppercase tracking-widest text-emerald-400 mb-4">Clubhouse</h4>
+            <p class="text-xs text-slate-400 font-light leading-relaxed">
+              Binitin, Murcia<br />
+              Negros Occidental<br />
+              info@binitingolf.ph
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="pt-8 border-t border-emerald-950/60 flex flex-col sm:flex-row justify-between items-center text-[11px] text-slate-500 gap-4">
+          <p>&copy; 2026 Binitin Golf & Country Club. Redesign Case Study Concept.</p>
+          <a href="../index.html" class="hover:text-emerald-400 transition">Back to Main Portfolio &rarr;</a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
